@@ -19,7 +19,7 @@ int main(){
 
   struct Student s2={"lisi",17,88};
 
-  //struct key can be omitted
+  //struct关键字可以省略
   Student s4;
 
   cout<<"name:"<<s1.name<<"\nage:"<<s1.age<<"\nscore:"<<s1.score<<endl;

@@ -6,14 +6,14 @@ class Person{
     int p_age;
     int p_height;
     int p_score;
-    //troditional constructor
+    //有参构造
     Person(int age,int height,int score){
       p_age=age;
       p_height=height;
       p_score=score;
     }
 
-    //Initialize constructor
+    //无参构造
     Person():p_age(10),p_height(160),p_score(99){
     
     }

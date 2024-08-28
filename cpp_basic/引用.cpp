@@ -10,13 +10,13 @@ void swap(int &a,int &b){
 int main(){
   int a=10;
   int &b=a;
-  //equals int * const b=a
+  //相当于int * const b=a
 
   cout<<"a="<<a<<endl;
   cout<<"b="<<b<<endl;
 
   b=100;
-  //modify the value of b
+  //修改b的值
   
   cout<<"a="<<a<<endl;
   cout<<"b="<<b<<endl;

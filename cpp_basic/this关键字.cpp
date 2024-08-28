@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//Member variables and member functions are stored separately
+//成员变量和成员函数被分别存储
 
 class Person{
   public:

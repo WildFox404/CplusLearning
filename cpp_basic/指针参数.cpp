@@ -10,8 +10,8 @@ void swap(int *a,int *b){
 int main(){
   int a=10;
   int b=20;
-  cout<<"before swap the value of a and b:"<<a<<" "<<b<<endl;
+  cout<<"交换前a和b:"<<a<<" "<<b<<endl;
   swap(&a,&b);
-  cout<<"after swap the value of a and b:"<<a<<" "<<b<<endl;
+  cout<<"交换后a和b:"<<a<<" "<<b<<endl;
   return 0;
 }

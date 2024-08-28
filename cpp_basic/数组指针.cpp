@@ -6,11 +6,11 @@ int main(){
 
   int *p =arr;//the pointer to an array
   
-  cout<<"the first element of array"<<arr[0]<<endl;
-  cout<<"the first element of array by pointer"<<*p<<endl;
+  cout<<"数组的第一个元素"<<arr[0]<<endl;
+  cout<<"数组的第一个元素(指针获取)"<<*p<<endl;
 
   for(int i=0;i<9;i++){
-    cout<<"the "<<i<<" element of array by pointer is "<<*p<<endl;
+    cout<<"第 "<<i<<" 元素通过指针获取 "<<*p<<endl;
     p++;
   }
   return 0;
